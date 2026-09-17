@@ -9,10 +9,5 @@ public class CircuitzApiApplication {
 
     public static void main(String[] args) {
         SpringApplication.run(CircuitzApiApplication.class, args);
-
-        // read circuit
-        // do dfs on the circuit
-        // if vertex has been visited store the edge as a cycle edge
-        // else add edge to spanning tree
     }
 }
